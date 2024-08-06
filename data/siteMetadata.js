@@ -3,52 +3,33 @@ const siteMetadata = {
   title: 'Andrew Weisbeck - Full Stack Developer',
   author: 'Andrew Weisbeck',
   headerTitle: 'GeauxWeisbeck4',
-  description: 'Find my projects, published content, notes and more on my personal website.',
+  description: 'The personal website of Andrew Weisbeck, which is a collection of content, programming projects, notes and more.',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://geauxweisbeck4-portfolio.vercel.app',
+  siteUrl: 'https://geauxweisbeck4.dev',
   siteRepo: 'https://github.com/geauxweisbeck4-portfolio.vercel.app',
   siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo.png`,
   socialBanner: `${process.env.BASE_PATH || ''}/static/images/twitter-card.png`,
-  mastodon: 'https://mastodon.social/@mastodonuser',
-  email: 'address@yoursite.com',
-  github: 'https://github.com',
-  x: 'https://twitter.com/x',
+  mastodon: 'https://fosstodon.org/@GeauxWeisbeck4',
+  email: 'andrew.weisbeck@gmail.com',
+  github: 'https://github.com/geauxweisbeck4',
+  x: 'https://twitter.com/x/geauxweisbeck4',
   // twitter: 'https://twitter.com/Twitter',
-  facebook: 'https://facebook.com',
-  youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
-  threads: 'https://www.threads.net',
-  instagram: 'https://www.instagram.com',
+  facebook: 'https://facebook.com/geauxweisbeck4',
+  youtube: 'https://www.youtube.com/channel/UC8S2Rk7U83DnGaT3EibIREw',
+  linkedin: 'https://www.linkedin.com/in/geauxweisbeck4',
+  threads: 'https://www.threads.net/@geauxweisbeck4',
+  instagram: 'https://www.instagram.com/geauxweisbeck4',
   locale: 'en-US',
   analytics: {
-    // If you want to use an analytics provider you have to add it to the
-    // content security policy in the `next.config.js` file.
-    // supports Plausible, Simple Analytics, Umami, Posthog or Google Analytics.
-    umamiAnalytics: {
-      // We use an env variable for this site to avoid other users cloning our analytics ID
-      umamiWebsiteId: process.env.NEXT_UMAMI_ID, // e.g. 123e4567-e89b-12d3-a456-426614174000
-      // You may also need to overwrite the script if you're storing data in the US - ex:
-      // src: 'https://us.umami.is/script.js'
-      // Remember to add 'us.umami.is' in `next.config.js` as a permitted domain for the CSP
-    },
-    // plausibleAnalytics: {
-    //   plausibleDataDomain: '', // e.g. tailwind-nextjs-starter-blog.vercel.app
-         // If you are hosting your own Plausible.
-    //   src: '', // e.g. https://plausible.my-domain.com/js/script.js
-    // },
-    // simpleAnalytics: {},
-    // posthogAnalytics: {
-    //   posthogProjectApiKey: '', // e.g. 123e4567-e89b-12d3-a456-426614174000
-    // },
-    // googleAnalytics: {
-    //   googleAnalyticsId: '', // e.g. G-XXXXXXX
-    // },
+    googleAnalytics: {
+      googleAnalyticsId: 'G-JYT5BR2CJH', // e.g. G-XXXXXXX
+     },
   },
   newsletter: {
     // supports mailchimp, buttondown, convertkit, klaviyo, revue, emailoctopus
     // Please add your .env file and modify it according to your selection
-    provider: 'buttondown',
+    provider: 'mailchimp',
   },
   comments: {
     // If you want to use an analytics provider you have to add it to the
@@ -81,18 +62,12 @@ const siteMetadata = {
     },
   },
   search: {
-    provider: 'kbar', // kbar or algolia
-    kbarConfig: {
-      searchDocumentsPath: `${process.env.BASE_PATH || ''}/search.json`, // path to load documents to search
+    provider: 'algolia', // kbar or algolia
+    algoliaConfig: {
+      appId: 'F5HBJL8M49',
+      apiKey: '3aa6d305e15a1ac3b142717a7e52546a',
+      indexName: 'prod_ANDREW',
     },
-    // provider: 'algolia',
-    // algoliaConfig: {
-    //   // The application ID provided by Algolia
-    //   appId: 'R2IYF7ETH7',
-    //   // Public API key: it is safe to commit it
-    //   apiKey: '599cec31baffa4868cae4e79f180729b',
-    //   indexName: 'docsearch',
-    // },
   },
 }
 
