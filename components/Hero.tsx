@@ -1,4 +1,4 @@
-import Image from './Image';
+// Hero Card
 
 const Hero = () => {
     return (

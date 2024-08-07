@@ -37,7 +37,7 @@ const ServicesSection = () => {
             <div class="w-full mb-10 sm:mb-0 sm:w-1/2">
                 <div class="relative h-full ml-0 mr-0 sm:mr-10">
                     <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-gradient-to-tr from-orange-300 to-sky-300 shadow-lg rounded-lg"></span>
-                    <div class="relative h-full p-5 dark:bg-sky-900 border-2 border-bg-gradient-to-tr from-orange-300 to-sky-300 shadow-lg rounded-lg">
+                    <div class="relative h-full p-5 dark:bg-sky-900 bg-sky-50 hover:bg-sky-100 border-2 border-gradient-to-tr from-orange-300 to-sky-300 shadow-lg rounded-lg">
                         <div class="flex items-center -mt-1">
                             <h3 class="my-2 ml-3 text-lg font-bold text-gray-800 dark:text-white">Project Audit</h3>
                         </div>
@@ -50,7 +50,7 @@ const ServicesSection = () => {
             <div class="w-full mb-10 sm:mb-0 sm:w-1/2">
                 <div class="relative h-full ml-0 mr-0 sm:mr-10">
                     <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-gradient-to-tr from-green-300 to-orange-300 shadow-lg rounded-lg"></span>
-                    <div class="relative h-full p-5 dark:bg-fuchsia-900 hover:dark:bg-fuchsia-800 bg-white border-2 border-gradient-to-tr from-green-300 to-orange-300 shadow-lg rounded-lg">
+                    <div class="relative h-full p-5 dark:bg-fuchsia-900 bg-fuchsia-50 hover:bg-fuchsia-100 hover:dark:bg-fuchsia-800 bg-white border-2 border-gradient-to-tr from-green-300 to-orange-300 shadow-lg rounded-lg">
                         <div class="flex items-center -mt-1">
                             <h3 class="my-2 ml-3 text-lg font-bold dark:text-white text-gray-800">Hacking / RE</h3>
                         </div>
@@ -63,7 +63,7 @@ const ServicesSection = () => {
             <div class="w-full sm:w-1/2">
                 <div class="relative h-full ml-0 md:mr-10">
                     <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-gradient-to-tr from-rose-300 to-teal-300 shadow-lg rounded-lg"></span>
-                    <div class="relative h-full p-5 bg-white dark:bg-teal-900 dark:hover:bg-teal-800 border-2 border-gradient-to-tr from-rose-300 to-teal-300 shadow-lg rounded-lg">
+                    <div class="relative h-full p-5 bg-teal-50 dark:bg-teal-900 hover:bg-teal-100 dark:hover:bg-teal-800 border-2 border-gradient-to-tr from-rose-300 to-teal-300 shadow-lg rounded-lg">
                         <div class="flex items-center -mt-1">
                             <h3 class="my-2 ml-3 text-lg font-bold dark:text-white text-gray-800">Bot/Script Development</h3>
                         </div>

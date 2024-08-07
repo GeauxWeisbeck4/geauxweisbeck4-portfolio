@@ -7,12 +7,10 @@ interface Project {
 
 const projectsData: Project[] = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
+    title: 'GeauxWeisbeck4.dev',
+    description: `You are actually currently already viewing this project if you can believe that! This is the third version of my portfolio website.`,
     imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
+    href: 'https://www.geauxweisbeck4.dev',
   },
   {
     title: 'The Time Machine',
